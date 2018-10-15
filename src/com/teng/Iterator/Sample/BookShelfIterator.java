@@ -1,20 +1,24 @@
-package com.teng.A1;
+package com.teng.Iterator.Sample;
 
 public class BookShelfIterator implements Iterator {
 	private BookShelf bookShelf;
 	private int index;
 	public BookShelfIterator(BookShelf bookShelf) {
-		this.bookShelf = bookShelf;
 		this.index = 0;
+		this.bookShelf = bookShelf;
 	}
-	public boolean hasNext(){
+
+	@Override
+	public boolean hasNext() {
 		if (index < bookShelf.getLength()){
 			return true;
-		} else {
+		}else {
 			return false;
 		}
 	}
-	public Object next(){
+
+	@Override
+	public Object next() {
 		Book book = bookShelf.getBookAt(index);
 		index++;
 		return book;

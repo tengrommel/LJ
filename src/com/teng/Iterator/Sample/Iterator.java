@@ -1,4 +1,4 @@
-package com.teng.Sample;
+package com.teng.Iterator.Sample;
 
 public interface Iterator {
 	public abstract boolean hasNext();

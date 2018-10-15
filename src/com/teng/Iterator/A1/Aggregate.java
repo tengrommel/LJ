@@ -1,4 +1,4 @@
-package com.teng.A1;
+package com.teng.Iterator.A1;
 
 public interface Aggregate {
 	public abstract Iterator iterator();

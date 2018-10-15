@@ -1,4 +1,4 @@
-package com.teng.Sample;
+package com.teng.Iterator.A1;
 
 public class Book {
 	private String name;
