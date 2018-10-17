@@ -1,4 +1,4 @@
-package com.teng.builder.Sample;
+package com.teng.builder;
 
 public class TextBuilder extends Builder{
 	private StringBuffer buffer = new StringBuffer();

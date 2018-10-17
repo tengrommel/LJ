@@ -1,4 +1,4 @@
-package com.teng.builder.Sample;
+package com.teng.builder;
 
 public class Main {
 	public static void main(String[] args) {

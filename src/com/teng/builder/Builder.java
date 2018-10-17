@@ -1,4 +1,4 @@
-package com.teng.builder.Sample;
+package com.teng.builder;
 
 public abstract class Builder {
 	public abstract void makeTitle(String title);

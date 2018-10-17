@@ -1,4 +1,4 @@
-package com.teng.builder.Sample;
+package com.teng.builder;
 
 import java.io.FileWriter;
 import java.io.IOException;
