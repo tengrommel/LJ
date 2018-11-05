@@ -25,7 +25,7 @@ public class Main {
 	}
 
 	private static void usage() {
-		System.out.println("Usage: java Main plain      编写纯文本文档");
-		System.out.println("Usage: java Main html       编写HTML文档");
+		System.out.println("Usage: java execute plain      编写纯文本文档");
+		System.out.println("Usage: java execute html       编写HTML文档");
 	}
 }
